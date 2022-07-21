@@ -6,7 +6,7 @@ const received = chalk.bold.cyan
 const error = chalk.bold.red
 
 
-global.owner = ['6281390199407','6281393190599'] // Put your number here
+global.owner = ['6288227758096','6288227758096'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = {
@@ -50,12 +50,12 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.packname = 'Nana-MD'
-global.author = 'Adul Alhy'
+global.packname = 'FazhBoT'
+global.author = 'Fachri'
 
 global.sessionid = '48736705854:2Tq6joffmVDzaS:24' // ID Sesi Instagram, Kamu Bisa Menganti Dengan Sesi Milikmu
 global.multiplier = 69 // Semakin Tinggi Angka/Nilai, Maka Peningkatan Level Akan Semakin Sulit
-global.wait = '_*Please Wait . . . .*_' // Pesan Saat Memuat / Menunggu
+global.wait = '_*Loading . . . .*_' // Pesan Saat Memuat / Menunggu
 global.eror = '_*Server Sedang Mengalami Error { Error:404 }*_' // Pesan Jika Mengalami Error
 global.fla = 'https://i.ibb.co/fSNR9D5/f7c4913eefb1.jpg'
 global.getBuffer = getBuffer
