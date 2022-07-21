@@ -8,43 +8,44 @@ let totalfeature = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
 let tags = {
-  'main': 'MENU UTAMA',
-  'game': 'MENU GAME',
-  'rpg': 'MENU RPG',
-  'xp': 'MENU EXP',
-  'group': 'MENU GROUP',
-  'owner': 'MENU OWNER',
-  'fun': 'MENU FUN',
-  'sticker': 'MENU CONVERT',
-  'maker': 'MENU MAKER',
-  'github': 'MENU GITHUB',
-  'internet': 'INTERNET',
-  'kerang': 'MENU KERANG',
-  'anime': 'MENU ANIME',
-  'nsfw': 'MENU NSFW',
-  'tools': 'MENU TOOLS',
-  'advanced': 'ADVANCED',
-  'privasi': 'MENU PRIVASI',
-  'info': 'MENU INFO',
+  'main': 'MENU UTAMA🔥',
+  'game': 'MENU GAME🎮',
+  'rpg': 'MENU RPG🌱',
+  'xp': 'MENU EXP✨',
+  'group': 'MENU GROUP⚓',
+  'owner': 'MENU OWNER👤',
+  'fun': 'MENU FUN🍁',
+  'sticker': 'MENU CONVERT💱',
+  'maker': 'MENU MAKER👾',
+  'github': 'MENU GITHUB👽',
+  'internet': 'INTERNET📶',
+  'kerang': 'MENU KERANG🐚',
+  'anime': 'MENU ANIME🗿',
+  'nsfw': 'MENU NSFW😱',
+  'tools': 'MENU TOOLS🛠️',
+  'advanced': 'ADVANCED🤖',
+  'privasi': 'MENU PRIVASI❗',
+  'info': 'MENU INFO💬',
 }
 const defaultMenu = {
   before: `
 ╭────ꕥ %me ꕥ────
-│✾ Version: %version
-│✾ Library: Baileys-MD
-│✾ Runtime: %uptime
+│✾ Version🍁: %version
+│✾ Library📖: Baileys-MD
+│✾ Runtime🌠: %uptime
+│✾ No Owner👤: 088227758096
 ╰❑
-╭─❑ 「 INFO USER 」 ❑──
-│ ✾ Name: %name
-│ ✾ Total Features : ${totalfeature}
-│ ✾ Limit: %limit
-│ ✾ Money: %money
-│ ✾ Exp: %totalexp
-│ ✾ Level: %level
-│ ✾ Role: %role
+╭─❑ 「 INFO USER 💬」 ❑──
+│ ✾ Name👤: %name
+│ ✾ Total Features🤖 : ${totalfeature}
+│ ✾ Limit🌾: %limit
+│ ✾ Money💰: %money
+│ ✾ Exp✨: %totalexp
+│ ✾ Level🔥: %level
+│ ✾ Role🌱: %role
 │ ✾ Number of Registered Users : %rtotalreg From %totalreg
 ╰❑
-╭─❑ 「 INFORMASI 」 ❑──
+╭─❑ 「 INFORMASI 💬」 ❑──
 │ Bot ini masih tahap beta
 │ apabila ada bug/eror harap
 │ lapor ke owner
@@ -167,34 +168,34 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: 'Nana-MD',
            hydratedButtons: [{ 
              urlButton: {
-               displayText: 'Source Code',
-               url: 'https://github.com/adulalhy/Nana-MD'
+               displayText: 'Source Code🌱',
+               url: 'https://github.com/Fachri31'
              }
 
            },
                {
              callButton: {
-               displayText: 'Call Owner',
+               displayText: 'Call Owner📞',
                phoneNumber: '123'
              }
            },
                {
              quickReplyButton: {
-               displayText: 'Owner',
+               displayText: 'Owner👤',
                id: '.owner'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Donasi',
+               displayText: 'Donasi👍',
                id: '.donasi'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Speed',
+               displayText: 'Speed🏃‍♂️',
                id: '.ping'
              }
 
