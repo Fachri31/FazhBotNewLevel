@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
   let isUser = false
   switch (type) {
     case 'w':
-    case 'welcome':
+    case 'welcome [💬]':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn)
